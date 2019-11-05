@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">HelloWorldXamarinApp</string>
+    <string name="app_name">Navigation between pages</string>
     <string name="action_settings">Settings</string>
 </resources>

@@ -13,7 +13,12 @@ namespace HelloWorldXamarinApp
         {
             base.OnCreate(savedInstanceState);
             // Set our view from the "main" layout resource
+
             SetContentView(Resource.Layout.activity_main);
+
+            Button button = FindViewById<Button>(Resource.Id.button1);
+
+            button.Click += delegate { StartActivity(typeof(Activity2)); };
         }
     }
 }
